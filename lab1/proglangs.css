@@ -1,0 +1,30 @@
+#første4 {
+	color: red;
+}
+
+
+#til8 {
+	color: blue;
+}
+
+#til12 {
+	color: green;
+}
+
+#til16 {
+	color: yellow;
+}
+
+
+#til20 {
+	color: gray;
+}
+
+#siste2{
+	color: blue;
+}
+
+.listestil {
+	list-style-type: none;
+	text-align: center;
+}

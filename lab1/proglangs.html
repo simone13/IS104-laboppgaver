@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+
+<!--
+  LAB1
+  Navn: Simon Wik Eriksen
+  Jeg samarbeidet med: ingen
+  Tiden jeg har brukt på oppgaven: 2 dager + forbedring før levering på nytt
+-->
+
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Programmeringsspråk (versjon 0.0.1)</title>
+ 
+ <!-- Laste inn Javascript biblioteker her -->
+ <!-- Fjern kommentarmerkene for å inkludere jquery biblioteket (sist hentet 23.08.2013) (Ikke nødvendig i lab1) -->
+ <!-- <script type="text/javascript" src="jquery-1.10.2.min.js"></script> -->
+<script type="text/javascript" src="proglangs.js"></script>
+ 
+ <!-- Inkludere CSS her -->
+ <!-- Fjern kommentarmerkene for å inkludere dine stiler -->
+ <link rel="stylesheet" href="proglangs.css" type="text/css" media="all" />
+
+ 
+</head>
+
+<body>
+
+	<ul id="liste"class="listestil"> 
+		<li id="første4">ActionScript</li>
+		<li id="første4">AppleScript</li>
+		<li id="første4">Asp</li>
+		<li id="første4">BASIC</li>
+		<li id="til8">C</li>
+		<li id="til8">C++</li>
+		<li id="til8">Clojure</li>
+		<li id="til8">COBOL</li>
+		<li id="til12">ColdFusion</li>
+		<li id="til12">Erlang</li>
+		<li id="til12">Fortran</li>
+		<li id="til12">Groovy</li>
+		<li id="til16">Haskell</li>
+		<li id="til16">Java</li>
+		<li id="til16">JavaScript</li>
+		<li id="til16">Lisp</li>
+		<li id="til20">Perl</li>
+		<li id="til20">PHP</li>
+		<li id="til20">Python</li>
+		<li id="til20">Ruby</li>
+		<li id="siste2">Scala</li>
+		<li id="siste2">Scheme</li>
+	</ul>
+
+<hr>
+<div align="center">	 <!-- Sentrer listen -->
+<form>
+	<label for="spraak">Velg et språk:</label>
+	<select name="velgsspraak" id="spraak" onChange="skrivTilUtdataBoks(this)">
+		<option value="ActionScript">ActionScript</option>
+		<option value="AppleScript">AppleScript</option>
+		<option value="Asp">Asp</option>
+		<option value="BASIC">BASIC</option>
+		<option value="C">C</option>
+		<option value="C++">C++</option>
+		<option value="Clojure">Clojure</option>
+		<option value="COBOL">COBOL</option>
+		<option value="ColdFusion">ColdFusion</option>
+		<option value="Erlang">Erlang</option>
+		<option value="Fortran">Fortran</option>
+		<option value="Groovy">Groovy</option>
+		<option value="Haskell">Haskell</option>
+		<option value="Java">Java</option>
+		<option value="JavaScript">JavaScript</option>
+		<option value="Lisp">Lisp</option>
+		<option value="Perl">Perl</option>
+		<option value="PHP">PHP</option>
+		<option value="Python">Python</option>
+		<option value="Ruby">Ruby</option>
+		<option value="Scala">Scala</option>
+		<option value="Scheme">Scheme</option>
+	<select>
+
+</form>
+
+<span id="utdataboks">Du har ikke valgt noe programmeringsspråk, velg ett fra listen</span>
+</div>
+
+</body>
+</html>
