@@ -1,0 +1,75 @@
+ /* hentet fra mal */
+ body {
+    padding-left: 11em;
+    font-size: 18px;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: purple;
+    background-color: #d8da3d}
+ /* Stil for meny */
+  ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+  /* Stil for h1 */
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+   /* Stil for li */
+  ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+/* Stil for linker */
+  ul.navbar a {
+    text-decoration: none }
+/* Stil for ikke-besøkte linker */
+  a:link {
+    color: blue }
+/* Stil for besøkte linker */
+  a:visited {
+    color: purple }
+  address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+
+
+
+/* brukt i lab 1 */
+
+#første4 {
+	color: red;
+}
+
+
+#til8 {
+	color: blue;
+}
+
+#til12 {
+	color: green;
+}
+
+#til16 {
+	color: yellow;
+}
+
+
+#til20 {
+	color: gray;
+}
+
+#siste2{
+	color: blue;
+}
+
+.listestil {
+	list-style-type: none;
+	text-align: center;
+}

@@ -1,4 +1,4 @@
-Kontrollspørsmål
+Kontrollspørsmål lab1
 
 0. javaskript brukes til å gi dynamisk innhold til nettsider.
 
